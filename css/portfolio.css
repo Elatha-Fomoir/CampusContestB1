@@ -1,0 +1,44 @@
+* {
+    background-image: url();
+    color: black;
+}
+
+/* Page Acceuil */
+
+header{
+    margin-bottom: 0;
+    padding-bottom: 1em;
+}
+
+#profil{
+    width: 100%;
+    height: auto;
+    border-radius: 4em;
+    border: solid;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+footer{
+    padding-top: 2em;
+}
+
+/* Page Parcours (Perso) */
+
+/* Page Expériences (Pro) */
+
+/* Page Formulaire */
+
+label{
+    display: inline-block ;
+    text-align: left;
+    width: 10rem;
+}
+
+input, textarea{
+    margin-top: 0.5vh;
+    width: 15rem;
+    resize: none;
+}
