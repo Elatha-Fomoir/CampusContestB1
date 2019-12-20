@@ -1,6 +1,10 @@
 * {
-    background-image: url();
-    color: black;
+    color: whitesmoke;
+}
+
+body{
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(89,28,204,1) 46%, rgba(2,0,36,1) 100%); 
 }
 
 /* Page Acceuil */
@@ -27,18 +31,27 @@ footer{
 
 /* Page Parcours (Perso) */
 
+.taille{
+    width: 100%;
+    height: auto;
+}
+
 /* Page Expériences (Pro) */
 
 /* Page Formulaire */
 
-label{
-    display: inline-block ;
-    text-align: left;
-    width: 10rem;
+form{
+    text-align: center;
 }
 
 input, textarea{
     margin-top: 0.5vh;
     width: 15rem;
     resize: none;
+    color: black;
+}
+
+button{
+    margin-top: 1em;
+    color: black;
 }
